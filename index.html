@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="./assets/css/stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <header class="bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <h1 class="text-2xl font-bold text-gray-900">Card Designer</h1>
+        </div>
+    </header>
+
+    <main class="p-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex gap-8">
+                <div class="w-64 bg-white rounded-lg shadow-md p-4 h-fit">
+                    <h2 class="text-lg font-semibold mb-4">Tools</h2>
+                    <div class="flex flex-col gap-2" id="tools-panel"></div>
+                </div>
+
+                <div class="flex-1">
+                    <div id="card-preview" class="w-full aspect-[1.4] bg-white rounded-lg shadow-lg relative"></div>
+                </div>
+
+                <div id="style-panel" class="w-64 bg-white rounded-lg shadow-md p-4 hidden"></div>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+</html>

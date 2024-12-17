@@ -1,0 +1,29 @@
+.draggable {
+    cursor: move;
+    user-select: none;
+}
+
+.selected {
+    outline: 2px solid #3b82f6;
+}
+
+.element {
+    position: absolute;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.text-element {
+    padding: 4px;
+    outline: none;
+}
+
+.shape-element {
+    background-color: #e5e7eb;
+}
+
+.image-element img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
